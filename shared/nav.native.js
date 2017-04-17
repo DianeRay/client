@@ -186,7 +186,6 @@ export default connect(
     chatBadge: menuNotifications.chatBadge,
     dumbFullscreen,
     folderBadge: menuNotifications.folderBadge,
-    provisioned: extendedConfig && !!extendedConfig.defaultDeviceID,
     username,
     hideNav: routeSelected === loginTab,
     reachability,
